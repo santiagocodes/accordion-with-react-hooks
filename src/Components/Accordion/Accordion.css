@@ -1,0 +1,81 @@
+/* Style the accordion article */
+.accordion__article {
+   display: flex;
+   flex-direction: column;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+   background-color: rgb(247, 128, 95);
+   color: #444;
+   cursor: pointer;
+   padding: 0.5em 1em;
+   display: flex;
+   align-items: center;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   margin-bottom: 2px;
+   transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover,
+.active {
+   background-color: rgb(227, 108, 75);
+}
+
+/* Style the accordion content title */
+.accordion__title {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 14px;
+   text-align: left;
+}
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+   border: none;
+   margin-left: auto;
+   background-color: transparent;
+   padding: 0.2em 0.2em 0.05em 0.2em;
+   transition: transform 0.6s ease;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+   transform: rotate(180deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+   background: rgb(249, 249, 249);
+   background: linear-gradient(
+      180deg,
+      rgba(209, 209, 209, 1) 0%,
+      rgba(0, 150, 153, 0.2) 98%
+   );
+   overflow: auto;
+   transition: max-height 0.6s ease;
+   border-radius: 10px;
+   margin-bottom: 4px;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+   font-weight: 400;
+   font-size: 14px;
+   padding: 18px;
+}
+
+.rotateToOpen {
+   -webkit-transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+   transform: rotate(180deg);
+}
+
+.rotateToClose {
+   transition: 0.5s ease-in-out;
+}
