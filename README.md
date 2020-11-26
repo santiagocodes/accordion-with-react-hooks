@@ -1,3 +1,11 @@
+<h1 align='center'>Accordion Sections with React Hooks</h1>
+<p align='center'>
+Website created using <a href='https://github.com/facebook/create-react-app'>ReactJS</a> and Hooks.
+<br>It has an accordion component and a modal component with a form from which you can add a new item to the accordion component.<br>
+</p>
+
+<img height="75px" align='left' src="https://santiagocodes.github.io/santiagocodes/images/octocat-santiagocodes.png" alt="santiagocodes octocat" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +76,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<h2 align='center'>Support</h2>
+
+<p align='center'>
+Reach out at any of the following places.<br>
+    <a href="https://twitter.com/maricstgo"><img src="https://img.shields.io/badge/twitter.com-@maricstgo-blue?style=flat&logo=twitter"></a>&nbsp;
+    <a href="https://dev.to/santiagocodes"><img src="https://img.shields.io/badge/dev.to-@santiagocodes-black?style=flat&logo=dev.to"></a>&nbsp;
+    <a href="https://santiagocodes.com"><img src="https://img.shields.io/badge/website-santiagocodes.com-blueviolet?style=flat"></a>&nbsp;
+</p>
